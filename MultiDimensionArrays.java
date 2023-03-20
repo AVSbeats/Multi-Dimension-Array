@@ -30,13 +30,13 @@ public class MultiDimensionArrays {
                 int floor;
                 int bedrooms;
 
-                entry = JOptionPane.showInputDialog(null, "Enter Floor Number: ");
+                entry = JOptionPane.showInputDialog(null, "Enter The Floor Number: ");
                 floor = Integer.parseInt(entry);
 
-                entry = JOptionPane.showInputDialog(null, "Enter Number of Bedrooms: ");
+                entry = JOptionPane.showInputDialog(null, "Enter The Number Of Bedrooms: ");
                 bedrooms = Integer.parseInt(entry);
 
-                JOptionPane.showMessageDialog(null, "The Rent for " + bedrooms + " Bedrooms Apartment on Floor " + floor
+                JOptionPane.showMessageDialog(null, "The Rent For " + bedrooms + " Bedrooms Apartment On Floor " + floor
                                 + " is $" + rents[floor][bedrooms]);
 
                 // Display all the multi arrays
